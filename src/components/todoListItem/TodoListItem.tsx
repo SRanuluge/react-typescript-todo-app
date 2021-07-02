@@ -8,7 +8,7 @@ import {
   Paper,
   Chip,
   createStyles,
-  Theme,
+  Theme
 } from "@material-ui/core";
 import { Delete } from "@material-ui/icons";
 import { useDispatch } from "react-redux";
@@ -30,6 +30,9 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
       color: theme.palette.text.secondary,
       background: "#d7ebfd",
+      borderLeftRadius: 10,
+      borderLeftWidth: 4,
+      borderWidth: 0,
     },
   })
 );
@@ -41,9 +44,12 @@ export const TodoListItem: FC<TodoListItemProps> = ({ todo }) => {
   const onCheck = (e: ChangeEvent<HTMLInputElement>) => {
     dispatch(completeTask(todo.id));
   };
+  const today = new Date();
   const date = new Date(todo.endDate);
   const formatDate = date.toDateString();
   const classes = useStyles();
+  const timeDeffeance = today.getTime() < date.getTime();
+
   return (
     <Grid container className={classes.container} spacing={1}>
       <Grid item xs={12}>
@@ -52,6 +58,11 @@ export const TodoListItem: FC<TodoListItemProps> = ({ todo }) => {
           variant="outlined"
           square
           className={classes.paper}
+          style={
+            timeDeffeance
+              ? { borderColor: "#0CA90F" }
+              : { borderColor: "#F35836" }
+          }
         >
           <Grid justify="space-between" container>
             <Grid item md={10} sm={10} xs={9} container justify="space-between">
