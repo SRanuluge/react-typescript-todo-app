@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-typescript-todo-app/static/css/main.18a8df70.chunk.css",
+    "main.js": "/react-typescript-todo-app/static/js/main.7b36348a.chunk.js",
+    "main.js.map": "/react-typescript-todo-app/static/js/main.7b36348a.chunk.js.map",
+    "runtime-main.js": "/react-typescript-todo-app/static/js/runtime-main.4110a573.js",
+    "runtime-main.js.map": "/react-typescript-todo-app/static/js/runtime-main.4110a573.js.map",
+    "static/js/2.3559eb6c.chunk.js": "/react-typescript-todo-app/static/js/2.3559eb6c.chunk.js",
+    "static/js/2.3559eb6c.chunk.js.map": "/react-typescript-todo-app/static/js/2.3559eb6c.chunk.js.map",
+    "index.html": "/react-typescript-todo-app/index.html",
+    "static/css/main.18a8df70.chunk.css.map": "/react-typescript-todo-app/static/css/main.18a8df70.chunk.css.map",
+    "static/js/2.3559eb6c.chunk.js.LICENSE.txt": "/react-typescript-todo-app/static/js/2.3559eb6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4110a573.js",
+    "static/js/2.3559eb6c.chunk.js",
+    "static/css/main.18a8df70.chunk.css",
+    "static/js/main.7b36348a.chunk.js"
+  ]
+}
