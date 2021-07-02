@@ -1,0 +1,5 @@
+export const ADD_TASK = "ADD_TASK"
+export const DELETE_TASK ="DELETE_TASK"
+export const COMPLETE_TASK ="COMPLETE_TASK"
+export const ASCENDING_LIST ="ASCENDING_LIST" 
+export const DESCENDING_LIST ="DESCENDING_LIST"
