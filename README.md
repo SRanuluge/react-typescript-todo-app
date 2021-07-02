@@ -1,13 +1,13 @@
 ##This is a simple Todo App using React and Typescript 
 
-state is persist with Local-storage
-Single todo has these properties (title, active state, end date)
-○ Required functionalities
-■ Ability to add a new todo
-■ Ability to mark a todo as done
-■ Ability to remove a todo
-■ Ability to view all todos
-■ Ability to sort tasks by end-date (ascending, descending) order
+state is persist with Local-storage.\
+Single todo has these properties (title, active state, end date).\
+functionalities.\
+■ Ability to add a new todo.\
+■ Ability to mark a todo as done.\
+■ Ability to remove a todo.\
+■ Ability to view all todos.\
+■ Ability to sort tasks by end-date (ascending, descending) order.\
 
 # Getting Started with Create React App
 
